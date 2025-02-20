@@ -50,3 +50,14 @@ html{
     border-bottom: 1px solid #ddd;
     padding: 10px;
 }
+
+.accordion a {
+    color: inherit; /* Keeps the default text color */
+    text-decoration: none; /* Removes underline */
+}
+
+.accordion a:hover,
+.accordion a:focus {
+    color: inherit; /* Prevents blue color on hover/focus */
+    text-decoration: none;
+}

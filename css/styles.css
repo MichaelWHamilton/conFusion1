@@ -35,3 +35,11 @@ body{
 .navbar-dark{
     background-color: #512DA8;
 }
+.alberto-img-scale{
+    width: 110px;
+    height: 110px;
+}
+
+html{
+    scroll-behavior: smooth;
+}

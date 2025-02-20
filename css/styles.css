@@ -61,3 +61,31 @@ html{
     color: inherit; /* Prevents blue color on hover/focus */
     text-decoration: none;
 }
+
+
+
+
+.carousel { 
+    background:#512DA8; 
+} 
+ 
+.carousel-item { 
+  height: 300px;
+} 
+ 
+.carousel-item img { 
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    min-height: 300px; 
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Dark semi-transparent background */
+    padding: 10px;
+    border-radius: 5px;
+}

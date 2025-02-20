@@ -80,12 +80,3 @@ html{
     min-height: 300px; 
 }
 
-.carousel-caption {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    right: 20px;
-    background: rgba(0, 0, 0, 0.5); /* Dark semi-transparent background */
-    padding: 10px;
-    border-radius: 5px;
-}

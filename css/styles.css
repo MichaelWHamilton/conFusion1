@@ -92,6 +92,8 @@ html{
     border-bottom: 5px solid #512DA8;
 }
 
-
+.carousel-caption{
+    margin-left:300px;
+}   
 
 

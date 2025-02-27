@@ -47,6 +47,7 @@ body {
 
 .carousel {
   background: #512DA8;
+  text-shadow: 0px 0px 3px black;
 }
 .carousel .carousel-item {
   height: 300px;
@@ -56,6 +57,9 @@ body {
   top: 0px;
   left: 0px;
   min-height: 300px;
+  border-top: 5px solid #512DA8;
+  border-left: 5px solid #512DA8;
+  border-bottom: 5px solid #512DA8;
 }
 
 #carouselButton {
@@ -73,9 +77,6 @@ body {
 .alberto-img-carousel {
   width: 300px;
   height: 100px;
-  border-top: 5px solid #512DA8;
-  border-left: 5px solid #512DA8;
-  border-bottom: 5px solid #512DA8;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -38,7 +38,7 @@
 
                 <!--add to trigger display of modal-->
                 <span class="navbar-text">
-                    <a data-toggle="modal" data-target="#loginModal"><span class="fa fa-sign-in"></span> Login</a>
+                    <a id="login-btn" style="cursor:pointer;"><span class="fa fa-sign-in"></span> Login</a>
                 </span>
             </div>             
         </div> 
@@ -56,6 +56,10 @@
                 <div class="modal-body">
                     <form>
                         <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputEmail">Email</label>
+                                <input type="text" class="form-control form-control-sm mr-1" id="exampleInputEmail" placeholder="Email"/>
+                            </div>
                             <div class="form-group col-sm-4">
                                 <label class="sr-only" for="exampleInputPassword3">Password</label>
                                 <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password"/>
@@ -176,7 +180,7 @@
                     <!-- <a href="#reservation-form" class="btn btn-warning d-block" >Reserve Table</a> -->
                     
                     <!--Updated reserve button to link to modal-->
-                    <a role="button" class="btn btn-block nav-link btn-warning" data-toggle="modal" data-target="#reserveModal">Reserve Table</a>                    
+                    <a id="reservation-btn" role="button" class="btn btn-block nav-link btn-warning">Reserve Table</a>                    
                 </div>
             </div>
         </div>
@@ -316,14 +320,14 @@
     </footer>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS. --> 
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script> 
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script> 
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
     <!-- endbuild -->
-
+    
 </body>
 
  
